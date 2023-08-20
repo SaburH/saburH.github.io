@@ -18,7 +18,7 @@
             padding: 1em 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -28,24 +28,32 @@
             font-size: 30px; /* Adjust the font size as needed */
             margin: 0 auto; /* Add this to center the paragraph */
         }
+        /* Image style */
+        .profile-image {
+            float: left;
+            margin-right: 20px;
+            max-width: 200px; /* Adjust the image width as needed */
+            margin-left: -270px; /* Create a small space to the page edge */
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Abdulhakim Sabur</h1>
-        <p>Welcome to My Personal Website</p>
+        <p>Welcome to <a href="#about-me">My Personal Website</a></p> <!-- Added hyperlink -->
     </header>
     <div class="container">
-        <h2>About Me</h2>
-		<div class="centered-paragraph">السلام عليكم ورحمة الله وبركاته </div>
-		<p></p>
-        <p>Hello!</P>
-		<p>I'm an assistant professor at Taibah University. I teach cybersecurity and computer networking courses.</p>
-		<p>My research area includes network security, vulnerability analysis, interaction of ML & security, and advanced persistent threats.</p>
+        <h2 id="about-me">About Me</h2> <!-- Added id for linking -->
+        <img src="random-files/personal.jpg" alt="Abdulhakim Sabur" class="profile-image">
+        <div class="centered-paragraph">السلام عليكم ورحمة الله وبركاته </div>
+        <p></p>
+        <p>Hello!</p>
+        <p>I'm an assistant professor in the <a href="https://taibahu.edu.sa/Pages/EN/Sector/SectorPage.aspx?ID=22" target="_blank">College of Computer Science and Engineering</a> at <a href="https://taibahu.edu.sa/Pages/EN/Home.aspx" target="_blank">Taibah University</a>. I teach cybersecurity and computer networking courses.</p>
+        <p>My research area includes network security, vulnerability analysis, interaction of ML & security, and advanced persistent threats.</p>
         
-        <h2>Projects</h2>
+        <h2>News</h2>
         <ul>
-            <li><a href="#">Project 1</a> - Short description of Project 1.</li>
+            <li>Joined Taibah University as an assistant professor of cybersecurity in the college of computer and information science -- Aug 2023 </li>
             <li><a href="#">Project 2</a> - Short description of Project 2.</li>
             <li><a href="#">Project 3</a> - Short description of Project 3.</li>
         </ul>
