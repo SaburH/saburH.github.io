@@ -35,17 +35,37 @@
             max-width: 200px; /* Adjust the image width as needed */
             margin-left: -270px; /* Create a small space to the page edge */
         }
+		.icon-image {
+			float: left;
+			margin-right: 20px;
+			max-width: 200px;
+			margin-left: -270px;
+			margin-top: 280px;
+		}
     </style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
     <header>
         <h1>Abdulhakim Sabur</h1>
+		<h2> عبد الحكيم منصور آل صبر </h2>
         <p>Welcome to My Personal Website</p> <!-- Added hyperlink -->
 		<p>asabur@taibahu.edu.sa</p>
     </header>
     <div class="container">
-        <h2 id="about-me">About Me</h2> <!-- Added id for linking -->
-        <img src="random-files/personal.jpg" alt="Abdulhakim Sabur" class="profile-image">
+        <h2 id="about-me">About Me</h2>
+        <div class="profile-image-container">
+            <img src="random-files/personal.jpg" alt="Abdulhakim Sabur" class="profile-image">
+            <!-- Social media icons -->
+            <div class="icon-image">
+                <a class="fab fa-graduation-cap body-icon" title="Google Scholar" alt="Google Scholar" href="https://scholar.google.com/citations?user=HGic61sAAAAJ&hl=en"></a>
+                <a class="fab fa-github-square body-icon" title="Github" alt="Github" href="https://github.com/saburH"></a>
+                <a class="fab fa-linkedin body-icon" title="Linkedin" alt="Linkedin" href="https://www.linkedin.com/in/abdulhakim-sabur/"></a>
+            </div>
+        </div>
+
+		<div class="clear"></div>
         <div class="centered-paragraph">السلام عليكم ورحمة الله وبركاته </div>
         <p></p>
         <p>Hello!</p>
